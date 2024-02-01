@@ -1,0 +1,23 @@
+body {
+    margin-top: 100px;
+}
+
+nav {
+    background-color: #00796b !important;
+    font-family: Roboto Slab;
+}
+
+b {
+    font-weight: normal !important;
+}
+
+.bi-house-fill {
+    font-size: 30px;
+}
+
+/* Responsive Breakpoint */
+@media screen and (max-width: 992px) {
+    #keyword {
+        margin: 10px auto;
+    }
+}

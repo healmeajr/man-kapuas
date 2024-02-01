@@ -1,0 +1,43 @@
+nav {
+    font-family: Roboto Slab;
+    transition: .5s;
+}
+
+.bi-house-fill {
+    font-size: 30px;
+}
+
+.jumbotron {
+    background-image: url('../img/home/jumbotron.jpg');
+    min-height: 500px;
+    padding-top: 190px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron h1,
+.jumbotron p {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgba(77, 182, 172, 0.7);
+    width: fit-content;
+}
+
+hr {
+    border-top: 2px solid rgba(0, 0, 0, .3);
+    width: 50%;
+}
+
+.galeri {
+    background-color: #4db6ac;
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .jumbotron {
+        margin-top: -72px;
+        overflow: hidden;
+    }
+
+}

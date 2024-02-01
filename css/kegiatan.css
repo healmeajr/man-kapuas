@@ -1,0 +1,16 @@
+body {
+    margin-top: 100px;
+}
+
+nav {
+    background-color: #00796b !important;
+    font-family: Roboto Slab;
+}
+
+b {
+    font-weight: normal !important;
+}
+
+.bi-house-fill {
+    font-size: 30px;
+}
