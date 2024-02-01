@@ -88,36 +88,15 @@ function tampilCard(kelas, keywords, classes) {
 
             // Cek kelas
             switch (kelas) {
-                case "9-1":
-                    daftarSiswa = daftarSiswa.kelas91;
+                case "ipa2":
+                    daftarSiswa = daftarSiswa.ipa2;
                     break;
-                case "9-2":
-                    daftarSiswa = daftarSiswa.kelas92;
-                    break;
-                case "9-3":
-                    daftarSiswa = daftarSiswa.kelas93;
-                    break;
-                case "9-4":
-                    daftarSiswa = daftarSiswa.kelas94;
-                    break;
-                case "9-5":
-                    daftarSiswa = daftarSiswa.kelas95;
-                    break;
-                case "9-6":
-                    daftarSiswa = daftarSiswa.kelas96;
-                    break;
-                case "9-7":
-                    daftarSiswa = daftarSiswa.kelas97;
-                    break;
-                case "9-8":
-                    daftarSiswa = daftarSiswa.kelas98;
-                    break;
-                case "staff":
-                    daftarSiswa = daftarSiswa.staff;
+                case "ipa2-ext":
+                    daftarSiswa = daftarSiswa.ipa2-ext;
                     break;
 
                 default:
-                    daftarSiswa = daftarSiswa.guru;
+                    daftarSiswa = daftarSiswa.home;
                     break;
             };
 
